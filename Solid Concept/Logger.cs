@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Solid_Concept
 {
-    public interface IShape
+    public class Logger
     {
-        double CalculateArea(double height, double width);
+        public void ConsoleLog(string content)
+        {
+            Console.WriteLine(content);
+        }
     }
 }
