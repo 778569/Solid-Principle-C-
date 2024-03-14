@@ -10,3 +10,6 @@ When Applied properly it makes your code more extendable, logical and easier to 
 
 ## **S** - Single Responsibility Principle (SRP)
 A Class should have only one reason to change. meaning that a class should have one job.
+
+## **O** - Open-Closed Principle (OCP)
+Software entities(class,modules,functions ect.) should open extension, but closed for modification.
