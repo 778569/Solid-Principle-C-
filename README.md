@@ -7,3 +7,6 @@ When Applied properly it makes your code more extendable, logical and easier to 
 **L** - Liskov Substitution Principle (LSP)<br>
 **I** - Interface Segregation Principle (ISP)<br>
 **D** - Dependency Inversion Principle (DIP)<br>
+
+## **S** - Single Responsibility Principle (SRP)
+A Class should have only one reason to change. meaning that a class should have one job.
