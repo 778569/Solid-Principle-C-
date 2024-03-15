@@ -18,3 +18,8 @@ Software entities(class,modules,functions ect.) should open extension, but close
 Let q(x) be a property provable about abjects of x of type T. Then q(y) should be provable fro objects y of type S where S is a subtype of T.
 
 All this is string is that every subclass/derived class should be substitutable for their base/parent class.
+
+## **I** - Interface Segregation Principle (ISP)
+
+A client should never be forced to implement an interface that it doesn't user or clients shouldn't be forced to depend on methods they do not use.
+
