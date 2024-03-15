@@ -10,6 +10,8 @@ internal class Program
 
         //shape.CheckArea();
 
+       Logger logger = new Logger();
+
         ICirculeShape circuleShape = new Circle();
 
         var CircleArea  = circuleShape.CalculateArea(6);
