@@ -8,10 +8,16 @@ namespace Solid_Concept
 {
     public class Circle : ICirculeShape
     {
+        private readonly ILogger logger;
+
+        public Circle(ILogger logger)
+        {
+            this.logger = logger;
+        }
         public double CalculateArea(double radius)
         {
 
-            new Logger().ConsoleLog("Calculating Area of Circle");
+            logger.Log("Calculating Area of Circle");
             return (22 / 7) * Math.Pow(radius, 2);
         }
 
