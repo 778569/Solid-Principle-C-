@@ -13,3 +13,8 @@ A Class should have only one reason to change. meaning that a class should have 
 
 ## **O** - Open-Closed Principle (OCP)
 Software entities(class,modules,functions ect.) should open extension, but closed for modification.
+
+## **L** - Liskov Substitution Principle (LSP)
+Let q(x) be a property provable about abjects of x of type T. Then q(y) should be provable fro objects y of type S where S is a subtype of T.
+
+All this is string is that every subclass/derived class should be substitutable for their base/parent class.
