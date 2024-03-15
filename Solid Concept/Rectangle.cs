@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Solid_Concept
 {
-    public class Rectangle : IShape
+    public class Rectangle : IAngularShape
     {
         public double CalculateArea(double height, double width)
         {
@@ -16,5 +16,7 @@ namespace Solid_Concept
             return height * width;
 
         }
+
+ 
     }
 }

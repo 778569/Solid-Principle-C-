@@ -4,11 +4,17 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        IShape rectangle = new Rectangle();
+        //IShape squre = new Squre();
 
-        Shape shape = new Shape("4", rectangle,6,2);
+        //Shape shape = new Shape("4", squre, 6,6);
 
-        shape.CheckArea();
+        //shape.CheckArea();
+
+        ICirculeShape circuleShape = new Circle();
+
+        var CircleArea  = circuleShape.CalculateArea(6);
+
+        Console.WriteLine(CircleArea);
 
         Console.ReadLine();
     }

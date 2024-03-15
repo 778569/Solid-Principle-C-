@@ -8,21 +8,28 @@ namespace Solid_Concept
 {
     public class Shape
     {
-        private readonly IShape shape;
+        private readonly IAngularShape shape;
+        private readonly ICirculeShape circuleShape;
 
         public string NameOfShape { get; set; }
 
         public int height { get; set; }
 
         public int width { get; set; }
+        public int radius { get; set; }
 
-
-        public Shape(string nameOfShape, IShape shape, int height, int width)
+        public Shape(string nameOfShape, IAngularShape shape, int height, int width, ICirculeShape circuleShape)
         {
             this.NameOfShape = nameOfShape;
             this.shape = shape;
             this.height = height;
             this.width = width;
+            this.circuleShape = circuleShape;
+        }
+
+        public Shape(int radius)
+        {
+            this.radius = radius;
         }
 
         public void CheckArea()
@@ -31,6 +38,19 @@ namespace Solid_Concept
 
             Console.WriteLine(area);
         }
+
+        public void CheckAreaCircle()
+        {
+            var area = circuleShape.CalculateArea(radius);
+
+            Console.WriteLine(area);
+        }
+
+
+
+
+
+
         //public double CalculateArea(double height, double width)
         //{
         //    switch (NameOfShape)
