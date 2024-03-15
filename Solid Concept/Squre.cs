@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Solid_Concept
 {
-    public class Squre : IShape
+    public class Squre : IAngularShape
     {
         public double CalculateArea(double height, double width)
         {
@@ -14,5 +14,7 @@ namespace Solid_Concept
             new Logger().ConsoleLog("Calculating Area of Squre");
             return height * width;
         }
+
+        
     }
 }

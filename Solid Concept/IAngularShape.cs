@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Solid_Concept
 {
-    public interface IShape
+    public interface IAngularShape
     {
         double CalculateArea(double height, double width);
+
+        //double CalculateArea(double radius);
     }
 }
