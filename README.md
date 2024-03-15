@@ -23,3 +23,9 @@ All this is string is that every subclass/derived class should be substitutable 
 
 A client should never be forced to implement an interface that it doesn't user or clients shouldn't be forced to depend on methods they do not use.
 
+## **D** - Dependency Inversion Principle (DIP)
+
+Entities must depend on abstractions not on concretions. it states that the high level module must not depend on the low level module, but they should depend on abstractions.
+
+
+
